@@ -20,7 +20,10 @@
     ./cleanup.sh
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     #add script for add application
-  #  ./add_applications.sh
+    ./add_applications.sh
+    # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+     #add script for set osX settings 
+    ./install_commands.sh
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     print_in_green '\n  ---\n\n'
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

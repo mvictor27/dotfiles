@@ -6,13 +6,13 @@ cd "$(dirname "$BASH_SOURCE")" \
 declare -a DIRECTORIES=(
         "$HOME/Projects"
         "$HOME/xCode"
-        "$HOME/Book's"
+        "$HOME/Books"
 )
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 main() {
-    printf  "\n trying to create directories \n "
+    printf "\n trying to create directories \n"
 
     for i in ${DIRECTORIES[@]}; do
         mkd "$i"
