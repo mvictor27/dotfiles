@@ -6,7 +6,7 @@ cd "$(dirname "$BASH_SOURCE")" \
 declare -a DIRECTORIES=(
         "$HOME/Projects"
         "$HOME/xCode"
-        "$HOME/Book's"
+        "$HOME/Books"
 )
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
