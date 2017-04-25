@@ -24,17 +24,17 @@ main() {
          brew_install 'Atom' 'atom' 'caskroom/cask' 'cask'
     fi
 
-    if ! cmd_exists 'transmission'; then
-          brew_install 'Transmission' 'transmission' 'caskroom/cask' 'cask'
-    fi
+    # if ! cmd_exists 'transmission'; then
+    #       brew_install 'Transmission' 'transmission' 'caskroom/cask' 'cask'
+    # fi
 
-    if ! cmd_exists 'the-unarchiver'; then
-          brew_install 'Unarchiver' 'the-unarchiver' 'caskroom/cask' 'cask'
-    fi
+    # if ! cmd_exists 'the-unarchiver'; then
+    #       brew_install 'Unarchiver' 'the-unarchiver' 'caskroom/cask' 'cask'
+    # fi
 
-    if ! cmd_exists 'vlc'; then
-          brew_install 'VLC' 'vlc' 'caskroom/cask' 'cask'
-    fi
+    # if ! cmd_exists 'vlc'; then
+    #       brew_install 'VLC' 'vlc' 'caskroom/cask' 'cask'
+    # fi
     
     print_in_green  '\n applications are installed \n'
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

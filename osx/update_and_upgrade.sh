@@ -12,8 +12,9 @@ main() {
     # https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/softwareupdate.8.html
     printf '\n trying to update system \n'
     execute 'sudo softwareupdate --install --all' 'Update system software'
+    printf '\n tring to update gem \n'
+    execute 'sudo gem update --system' 'Update gem'
     printf '\n'
-
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     if cmd_exists 'brew'; then

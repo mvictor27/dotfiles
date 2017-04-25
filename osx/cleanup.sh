@@ -12,6 +12,8 @@ main() {
     # needs to be used
     #
     # https://github.com/Homebrew/homebrew/blob/b311d1483fa434f6692ab8dddb0bfd876d01a668/share/doc/homebrew/FAQ.md#how-do-i-uninstall-old-versions-of-a-formula
+    printf '\n Cleanup gem \n'
+    execute 'sudo gem cleanup' 'gem (cleanup)'
 
     if cmd_exists 'brew'; then
         printf "\n we are cleanup brew \n"
